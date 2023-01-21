@@ -1,15 +1,16 @@
-const keyGetCurrentTime = "x";
-const keyGoBackTo = "z";
 let player = document.getElementsByTagName("video")[0];
-let currentTime = null;
+
+const keySaveCurrentTime = "x";
+const keyGoToSavedTime = "z";
+let savedTime = null;
 
 document.addEventListener("keydown", function (event) {
   switch (event.key) {
-    case keyGetCurrentTime:
-      currentTime = player.currentTime;
+    case keySaveCurrentTime:
+      savedTime = player.currentTime;
       break;
-    case keyGoBackTo:
-      player.currentTime = currentTime;
+    case keyGoToSavedTime:
+      player.currentTime = savedTime;
       break;
   }
 });
