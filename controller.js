@@ -1,8 +1,10 @@
 const keyGetCurrentTime = "KeyX";
 let player = document.getElementsByTagName("video")[0];
+let currentTime = null;
 
 document.addEventListener("keydown", function (event) {
   if (event.code === keyGetCurrentTime) {
-    window.alert(player.currentTime);
+    currentTime = player.currentTime;
+    window.alert(currentTime);
   }
 });
