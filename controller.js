@@ -7,11 +7,9 @@ document.addEventListener("keydown", function (event) {
   switch (event.key) {
     case keyGetCurrentTime:
       currentTime = player.currentTime;
-      window.alert(currentTime);
       break;
     case keyGoBackTo:
       player.currentTime = currentTime;
-    default:
-      console.log("Other key pressed");
+      break;
   }
 });
