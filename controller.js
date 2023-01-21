@@ -5,6 +5,7 @@ const keyGoToSavedTime = "z";
 const keyPlaySpeedUp = "s";
 const keyPlaySpeedDown = "a";
 const keyPlaySpeedDefault = "d";
+
 let savedTime = null;
 
 document.addEventListener("keydown", function (event) {
@@ -24,5 +25,12 @@ document.addEventListener("keydown", function (event) {
     case keyPlaySpeedDefault:
       player.playbackRate = 1;
       break;
+  }
+  if (event.shiftKey) {
+    switch (event.key) {
+      case "Z":
+        player.currentTime -= 1;
+        break;
+    }
   }
 });

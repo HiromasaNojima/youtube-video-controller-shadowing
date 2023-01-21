@@ -2,7 +2,7 @@
   "name": "youtube video controller for shadowing",
   "version": "1.0.0",
   "manifest_version": 2,
-  "description": "Sample Chrome Extension",
+  "description": "help your practice of shadowing!",
   "content_scripts": [
     {
       "matches": ["https://www.youtube.com/watch?v=*"],
