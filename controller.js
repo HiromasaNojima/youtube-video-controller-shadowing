@@ -1,1 +1,1 @@
-window.alert('hello');
+console.log("hello");
