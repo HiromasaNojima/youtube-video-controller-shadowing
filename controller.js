@@ -4,7 +4,7 @@ let currentTime = null;
 
 document.addEventListener("keydown", function (event) {
   switch (event.key) {
-    case "x":
+    case keyGetCurrentTime:
       currentTime = player.currentTime;
       window.alert(currentTime);
       break;
