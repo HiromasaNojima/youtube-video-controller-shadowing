@@ -14,6 +14,7 @@ document.addEventListener("keydown", function (event) {
       savedTime = player.currentTime;
       break;
     case keyGoToSavedTime:
+      if (savedTime === null) break;
       player.currentTime = savedTime;
       break;
     case keyPlaySpeedUp:
@@ -29,7 +30,7 @@ document.addEventListener("keydown", function (event) {
   if (event.shiftKey) {
     switch (event.key) {
       case "Z":
-        player.currentTime -= 1;
+        player.currentTime -= 2;
         break;
     }
   }
