@@ -21,7 +21,7 @@ This is the Chrome extension that helps you practice shadowing on YouTube.
 
 ### Demo
 
-https://www.youtube.com/watch?v=wzwXC4Ph-Vw
+https://user-images.githubusercontent.com/67505578/213916239-a729df84-3a6c-4c7c-9778-2c2cef172d2d.mp4
 
 # Installation
 
