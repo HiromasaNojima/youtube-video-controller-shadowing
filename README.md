@@ -19,6 +19,10 @@ This is the Chrome extension that helps you practice shadowing on YouTube.
 - Press **s** to increase playback speed by 0.1.
 - Press **d** to reset playback speed to 1.0.
 
+### Demo
+
+https://user-images.githubusercontent.com/67505578/213916169-74c14d72-a5af-4b3c-8436-0b47e040080c.mp4
+
 # Installation
 
 TO BE UPDATED.
