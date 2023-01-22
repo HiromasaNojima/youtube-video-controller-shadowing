@@ -1,7 +1,7 @@
 {
   "name": "youtube video controller for shadowing",
   "version": "1.0.0",
-  "manifest_version": 2,
+  "manifest_version": 3,
   "description": "help your practice of shadowing!",
   "content_scripts": [
     {
@@ -9,6 +9,8 @@
       "js": ["controller.js"]
     }
   ],
-  "background": { "scripts": ["hot-reload.js"] },
+  "icons": {
+    "128": "128.png"
+  },
   "permissions": ["activeTab"]
 }
