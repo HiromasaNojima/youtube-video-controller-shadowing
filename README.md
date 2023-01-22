@@ -21,13 +21,19 @@ This is the Chrome extension that helps you practice shadowing on YouTube.
 
 ### Demo
 
-https://user-images.githubusercontent.com/67505578/213916239-a729df84-3a6c-4c7c-9778-2c2cef172d2d.mp4
+https://www.youtube.com/watch?v=wzwXC4Ph-Vw
 
 # Installation
 
 TO BE UPDATED.
+(It is under investigation for release on Chrome store.)
 
-(For now, you can install it manually by cloning the code, going to chrome://extensions, and selecting "Load unpacked".)
+For now, you can install it manually.
+
+1. Download the youtube-video-controller-shadowing.zip from the [release page](https://github.com/HiromasaNojima/youtube-video-controller-shadowing/releases)
+1. Unzip the downloaded file
+1. Go to chrome://extensions/ and enable developer mode.
+1. Click the "Load unpacked" button and select the unzipped folder to install.
 
 # License
 
