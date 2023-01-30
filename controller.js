@@ -1,4 +1,8 @@
-let player = document.getElementsByTagName("video")[0];
+let player = getVideo();
+
+function getVideo() {
+  return document.getElementsByTagName("video")[0];
+}
 
 const keySaveCurrentTime = "x";
 const keyGoToSavedTime = "z";
