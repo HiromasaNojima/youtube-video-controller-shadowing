@@ -25,10 +25,11 @@ https://user-images.githubusercontent.com/67505578/213916239-a729df84-3a6c-4c7c-
 
 # Installation
 
-TO BE UPDATED.
-(It is under investigation for release on Chrome store.)
+## From Chrome Web Store
 
-For now, you can install it manually.
+You can install the extension from [Chrome Web Store](https://chrome.google.com/webstore/detail/youtube-video-controller/eejhjkkhdppnoipdakphfikhhapbefll).
+
+## From GitHub
 
 1. Download the youtube-video-controller-shadowing.zip from the [release page](https://github.com/HiromasaNojima/youtube-video-controller-shadowing/releases)
 1. Unzip the downloaded file
